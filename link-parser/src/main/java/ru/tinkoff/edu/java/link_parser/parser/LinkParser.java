@@ -3,6 +3,7 @@ package ru.tinkoff.edu.java.link_parser.parser;
 import ru.tinkoff.edu.java.link_parser.data.ParserData;
 
 public abstract class LinkParser {
+
     private LinkParser nextLinkParser;
 
     public void setNextLinkParser(LinkParser nextLinkParser) {

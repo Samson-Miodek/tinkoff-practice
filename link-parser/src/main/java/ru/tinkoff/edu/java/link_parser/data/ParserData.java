@@ -1,4 +1,4 @@
 package ru.tinkoff.edu.java.link_parser.data;
 
-public interface ParserData {
+public sealed interface ParserData permits GithubParserData, StackOverflowParserData {
 }

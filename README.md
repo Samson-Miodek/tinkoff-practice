@@ -8,14 +8,14 @@
 3. В репозитории создайте мультимодульный maven-проект со следующей структурой:
 
 
-    /project
-    ├─ bot/
-    │ ├─ pom.xml
-    ├─ link-parser/
-    │ ├─ pom.xml
-    ├─ scrapper/
-    │ ├─ pom.xml
-    ├─ pom.xml
+        /project
+        ├─ bot/
+        │ ├─ pom.xml
+        ├─ link-parser/
+        │ ├─ pom.xml
+        ├─ scrapper/
+        │ ├─ pom.xml
+        ├─ pom.xml
 
 Проверьте, что команда **mvn package** успешно отрабатывает в терминале.
 

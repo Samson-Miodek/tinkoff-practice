@@ -20,11 +20,9 @@ public class Main {
 
         var parserData = linkParser.linkManager(link);
 
-        if (parserData instanceof GithubParserData) {
-            var git = (GithubParserData) parserData;
+        if (parserData instanceof GithubParserData git) {
             System.out.println(git);
-        } else if (parserData instanceof StackOverflowParserData) {
-            var stack = (StackOverflowParserData) parserData;
+        } else if (parserData instanceof StackOverflowParserData stack) {
             System.out.println(stack);
         } else {
             throw new IllegalArgumentException();
